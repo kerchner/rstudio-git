@@ -1,0 +1,24 @@
+---
+title: "Resources for References and Reading on Git, Github, and RStudio"
+teaching: 10
+exercises: 10
+questions:
+- "What are some good resources for futher reading?"
+objectives:
+- "FIXME"
+keypoints:
+- "There's a lot to know about Git, and it's useful to know where to look for more detailed information"
+source: Rmd
+---
+
+```{r, include=FALSE}
+source("../bin/chunk-options.R")
+# knitr_fig_path("01-")
+```
+
+## Git
+
+## R and RStudio with Git
+
+
+
