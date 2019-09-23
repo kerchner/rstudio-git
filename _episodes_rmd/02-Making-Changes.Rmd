@@ -20,3 +20,10 @@ source("../bin/chunk-options.R")
 ```
 
 
+> ## Should you check in the .Rproj file?
+> 
+> Great question!
+>
+> 
+{: .callout}
+

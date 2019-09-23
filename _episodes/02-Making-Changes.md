@@ -19,3 +19,10 @@ source: Rmd
 
 
 
+> ## Should you check in the .Rproj file?
+> 
+> Great question!
+>
+> 
+{: .callout}
+
