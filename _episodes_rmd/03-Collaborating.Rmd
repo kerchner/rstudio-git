@@ -1,0 +1,22 @@
+---
+title: "Collaborating"
+teaching: 45
+exercises: 10
+questions:
+- "FIXME"
+objectives:
+- "Cloning a branch"
+- "Making a branch"
+- "Pushing a branch"
+- "Merging and rebasing"
+keypoints:
+- "FIXME"
+source: Rmd
+---
+
+```{r, include=FALSE}
+source("../bin/chunk-options.R")
+# knitr_fig_path("01-")
+```
+
+

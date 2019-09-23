@@ -1,0 +1,22 @@
+---
+title: "Making Changes"
+teaching: 45
+exercises: 10
+questions:
+- "FIXME"
+objectives:
+- "Making changes, examining diffs using RStudio"
+- "Committing changes"
+- "Pushing changes"
+- "Reverting changes"
+keypoints:
+- "FIXME"
+source: Rmd
+---
+
+```{r, include=FALSE}
+source("../bin/chunk-options.R")
+# knitr_fig_path("01-")
+```
+
+
