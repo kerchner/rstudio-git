@@ -38,9 +38,25 @@ There are three basic scenarios you might be starting from:
 
 ### Blank slate
 
-Let's take the blank slate scenario.  First we create a new project:
+Let's take the blank slate scenario.  Probably the easist way to do this is to:
+
+1.  Go to Github.  Click green “New repository” button. Or, if you are on your own profile page, click on “Repositories”, then click the green “New” button.
+
+Repository name: myrepo (or whatever you wish)
+Public
+YES Initialize this repository with a README
+Click the big green button “Create repository.”
+
+Copy the HTTPS clone URL to your clipboard via the green “Clone or Download” button. Or copy the SSH URL if you chose to set up SSH keys.
+
+2.  In RStudio, start a new Project:
+
+File > New Project > Version Control > Git. In the “repository URL” paste the URL of your new GitHub repository. It will be something like this https://github.com/jennybc/myrepo.git.
+Be intentional about where you create this Project.
 
 ![](../fig/RStudio_screenshot_newproject.png)
+
+
 
 > ## Do You See a "Version Control" Option?
 >
@@ -78,38 +94,43 @@ instructions](https://swcarpentry.github.io/git-novice/setup.html)
 {: .callout}
 
 
-Also note that there's now a Git tab in the upper right pane, next to "Environment" and "History".
 
-Next, we select "New Directory":
+![](../fig/RStudio_screenshot_versioncontrol.png)
 
-![](../fig/RStudio_screenshot_newdirectory.png)
-
-More text here
-
-
-### Existing Project
-
-
-![](../fig/RStudio_screenshot_newproject.png)
-
-This will open a dialog asking us how we want to create the project. We have
-some options here. Let's say that we want to use RStudio with the planets
-repository that we already made. Since that repository lives in a directory on
-our computer, we choose the option "Existing Directory":
-
-![](../fig/RStudio_screenshot_existingdirectory.png)
+Suggest you “Open in new session”.
+Click “Create Project” to create a new directory, which will be all of these things:
+- a directory or “folder” on your computer
+- a Git repository, linked to a remote GitHub repository
+- an RStudio Project
+In the absence of other constraints, I suggest that all of your R projects have exactly this set-up.
 
 
 
-Next, RStudio will ask which existing directory we want to use. Click
-"Browse..." and navigate to the correct directory, then click "Create Project":
 
-![](../fig/RStudio_screenshot_navigateexisting.png)
 
-Ta-da! We have created a new project in RStudio within **FIXME** the existing planets
-repository. Notice the vertical "Git" menu in the menu bar. RStudio has
-recognized that the current directory is a Git repository, and gives us a
-number of tools to use Git:
+<!-- ### Existing Project -->
 
-![](../fig/RStudio_screenshot_afterclone.png)
+
+<!-- ![](../fig/RStudio_screenshot_newproject.png) -->
+
+<!-- This will open a dialog asking us how we want to create the project. We have -->
+<!-- some options here. Let's say that we want to use RStudio with the planets -->
+<!-- repository that we already made. Since that repository lives in a directory on -->
+<!-- our computer, we choose the option "Existing Directory": -->
+
+<!-- ![](../fig/RStudio_screenshot_existingdirectory.png) -->
+
+
+
+<!-- Next, RStudio will ask which existing directory we want to use. Click -->
+<!-- "Browse..." and navigate to the correct directory, then click "Create Project": -->
+
+<!-- ![](../fig/RStudio_screenshot_navigateexisting.png) -->
+
+<!-- Ta-da! We have created a new project in RStudio within **FIXME** the existing planets -->
+<!-- repository. Notice the vertical "Git" menu in the menu bar. RStudio has -->
+<!-- recognized that the current directory is a Git repository, and gives us a -->
+<!-- number of tools to use Git: -->
+
+<!-- ![](../fig/RStudio_screenshot_afterclone.png) -->
 

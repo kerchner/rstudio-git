@@ -12,9 +12,34 @@ objectives:
 - "Pushing a branch"
 - "Merging and rebasing"
 keypoints:
-- "FIXME"
+- "RStudio doesn't yet have facilities for working with branches, but you can work on git branches RStudio by using git commands at the Terminal"
 source: Rmd
 ---
+
+RStudio doesn't (yet) have the facilities for dealing with branches, so anything relating to branches must be done in the Terminal tab (and/or outside RStudio with other tools).
+
+## Pulling a branch from Github
+
+
+
+## Making a new branch
+
+Create a new branch, and check it out (all in one step) with:
+
+`git checkout -b my-new-branch`
+
+Any changes you make in RStudio will be made on this branch.
+
+`git push origin my-new-branch`
+
+FIXME: What happens if you simply push from RStudio?
+
+## Pushing 
+
+When you're ready to push your changes...
+
+## Merging
+
 
 
 
