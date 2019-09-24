@@ -17,7 +17,9 @@ source: Rmd
 
 ## Git
 
+* [git-scm](https://git-scm.com/)
+
 ## R and RStudio with Git
 
-
+* [Happy Git With R](https://happygitwithr.com)
 
